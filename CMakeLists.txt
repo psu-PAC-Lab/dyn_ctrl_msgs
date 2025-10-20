@@ -12,8 +12,9 @@ find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
 set(MESSAGES
-  "msg/rigid_body_state.msg"
-  "msg/rigid_body_traj.msg"
+  "msg/RigidBodyState.msg"
+  "msg/RigidBodyStateStamped.msg"
+  "msg/RigidBodyTraj.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
