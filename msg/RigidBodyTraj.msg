@@ -1,0 +1,1 @@
+RigidBodyStateStamped[] traj
