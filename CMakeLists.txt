@@ -15,6 +15,8 @@ set(MESSAGES
   "msg/RigidBodyState.msg"
   "msg/RigidBodyStateStamped.msg"
   "msg/RigidBodyTraj.msg"
+  "msg/StateStamped.msg"
+  "msg/StateTraj.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
